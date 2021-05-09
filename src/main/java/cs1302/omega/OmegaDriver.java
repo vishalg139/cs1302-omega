@@ -1,6 +1,7 @@
 package cs1302.omega;
 
 import javafx.application.Application;
+import cs1302.omega.GalleryApp;
 
 /**
  * Driver for the {@code OmegaApp} class.
@@ -13,7 +14,7 @@ public class OmegaDriver {
      */
     public static void main(String[] args) {
         try {
-            Application.launch(OmegaApp.class, args);
+            Application.launch(GalleryApp.class, args);
         } catch (UnsupportedOperationException e) {
             e.printStackTrace();
             System.err.println();
